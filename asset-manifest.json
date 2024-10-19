@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/dmytroprogs.github.io/with-love-al/static/css/main.ffc253c8.css",
+    "main.js": "/dmytroprogs.github.io/with-love-al/static/js/main.27f0f2bb.js",
+    "static/js/453.8e490e84.chunk.js": "/dmytroprogs.github.io/with-love-al/static/js/453.8e490e84.chunk.js",
+    "static/media/Butterfly-removebg-preview.png": "/dmytroprogs.github.io/with-love-al/static/media/Butterfly-removebg-preview.11c4cf7764267e8fa1d8.png",
+    "static/media/earrings-removebg-preview.png": "/dmytroprogs.github.io/with-love-al/static/media/earrings-removebg-preview.0870f3bcfebc22af1c50.png",
+    "static/media/Background-pup.png": "/dmytroprogs.github.io/with-love-al/static/media/Background-pup.e61d48d599bbd5e11213.png",
+    "static/media/Necklace-removebg-preview.png": "/dmytroprogs.github.io/with-love-al/static/media/Necklace-removebg-preview.9cf8a20d062e59bdfbfe.png",
+    "static/media/site-logo.png": "/dmytroprogs.github.io/with-love-al/static/media/site-logo.acb86d936c011e385e5b.png",
+    "index.html": "/dmytroprogs.github.io/with-love-al/index.html",
+    "main.ffc253c8.css.map": "/dmytroprogs.github.io/with-love-al/static/css/main.ffc253c8.css.map",
+    "main.27f0f2bb.js.map": "/dmytroprogs.github.io/with-love-al/static/js/main.27f0f2bb.js.map",
+    "453.8e490e84.chunk.js.map": "/dmytroprogs.github.io/with-love-al/static/js/453.8e490e84.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ffc253c8.css",
+    "static/js/main.27f0f2bb.js"
+  ]
+}
