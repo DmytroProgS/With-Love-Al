@@ -1,0 +1,45 @@
+
+.banner {
+    position: relative;
+    padding: 20px;
+    text-align: center;
+    background-color: #f9f9f9;
+  }
+  
+  .slogan {
+    position: relative; /* Додано для позиціювання відносно контейнера */
+    z-index: 1; /* Щоб текст був поверх фону */
+    text-align: left;
+    padding-left: 20%;
+    font-size: 48px;
+    color: #4a4a4a;
+    margin-top: 0px;
+    font-family: 'Playfair Display', serif; /* Шрифт з Google Fonts */
+    font-weight: 400; /* Робимо шрифт більш легким */
+    line-height: 1.2;
+  }
+
+  
+  
+  .banner h2 {
+    font-family: 'Playfair Display', serif; /* Можна замінити на інший схожий шрифт */
+    font-weight: 300; /* Робимо шрифт тоншим */
+    letter-spacing: 3px; /* Збільшуємо відстань між літерами */
+    text-transform: uppercase; /* Робимо текст великими літерами */
+    font-size: 24px; /* Налаштуй розмір шрифту за потреби */
+    color: #4a4a4a; /* Вибираємо колір тексту */
+  }
+  
+  .banner::before {
+    content: '';
+    position: absolute;
+    top: -100px;
+    right: 23%;
+    bottom: 0;
+    width: 30%; /* Ширина фону, можна налаштувати */
+    background: url('../../assets/images/Background-pup.png') no-repeat right top;
+    background-size: contain;
+    z-index: 0; /* Щоб зображення було під текстом */
+    opacity: 0.8; /* Можна налаштувати прозорість */
+  }
+  

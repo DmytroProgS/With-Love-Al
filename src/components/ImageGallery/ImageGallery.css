@@ -1,0 +1,28 @@
+.gallery {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    width: 80%;
+    margin: 0 auto;
+  }
+  
+  .gallery img {
+    max-width: 100%;
+    height: auto;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+  }
+  
+  button {
+    background-color: transparent;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    margin: 0 20px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  

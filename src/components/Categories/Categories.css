@@ -1,0 +1,78 @@
+.categories {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .category-grid {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; /* Відстань між блоками */
+    padding: 20px;
+  }
+  
+  .category-card {
+    background-color: #fbf6f3; /* Колір фону блоку */
+    padding: 20px;
+    border-radius: 10px; /* Згладжені кути */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Тінь */
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 100%; /* Встанови ширину для кожного блоку */
+  }
+  
+  .category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Збільшена тінь при наведенні */
+  }
+  
+  .category-card img {
+    max-width: 200px; /* Адаптивний розмір зображення */
+  }
+  
+  .category-card h4 {
+    font-size: 18px;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  .category-card a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: bold;
+    font-size: 14px;
+  }
+  
+  .header-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    height: 80px; /* Висота навігаційного блоку */
+  }
+  
+  .logo img {
+    height: 100%; /* Логотип займатиме всю висоту блоку header-navigation */
+  }
+  
+  .header-menu {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-menu li {
+    margin: 0 15px;
+  }
+  
+  .instagram-link {
+    margin-left: auto;
+  }
+  
+  .instagram-link img {
+    width: 24px;
+    height: 24px;
+  }
+  

@@ -1,0 +1,42 @@
+.header-block {
+  display: flex;
+  justify-content: center;
+  padding-top: 0px;
+}
+
+.header-navigation {
+    display: flex;
+    justify-content: space-between; /* Розташовує елементи на різних кінцях */
+    align-items: center; /* Вертикально вирівнює елементи */
+    padding: 5px; /* Відступи для зручності */
+  }
+  
+  .header-menu {
+    display: flex;
+    list-style: none; /* Видаляємо буліти зі списку */
+    justify-content: center; /* Центруємо меню */
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Playfair Display', serif; /* Можна замінити на інший схожий шрифт */
+  font-weight: 500; /* Робимо шрифт тоншим */
+  letter-spacing: 3px; /* Збільшуємо відстань між літерами */
+  text-transform: uppercase; /* Робимо текст великими літерами */
+  font-size: 15px; /* Налаштуй розмір шрифту за потреби */
+  color: #4a4a4a; /* Вибираємо колір тексту */
+  }
+  
+  .header-menu li {
+    margin: 0 15px; /* Відступи між пунктами меню */
+  }
+  
+  .instagram-link {
+    margin-left: auto; /* Вирівнюємо посилання праворуч */
+  }
+  
+  .instagram-link img {
+    width: 27px; /* Ширина іконки Instagram */
+    height: 27px;
+    padding-left: 50px;
+  }
+
