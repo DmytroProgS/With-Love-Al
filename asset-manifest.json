@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/with-love-al/static/css/main.958f8225.css",
-    "main.js": "/with-love-al/static/js/main.b212be8b.js",
+    "main.css": "/with-love-al/static/css/main.ee699ec9.css",
+    "main.js": "/with-love-al/static/js/main.d158f484.js",
     "static/media/Butterfly-removebg-preview.png": "/with-love-al/static/media/Butterfly-removebg-preview.11c4cf7764267e8fa1d8.png",
     "static/media/earrings-removebg-preview.png": "/with-love-al/static/media/earrings-removebg-preview.0870f3bcfebc22af1c50.png",
     "static/media/Background-pup.png": "/with-love-al/static/media/Background-pup.e61d48d599bbd5e11213.png",
     "static/media/Necklace-removebg-preview.png": "/with-love-al/static/media/Necklace-removebg-preview.9cf8a20d062e59bdfbfe.png",
-    "static/media/site-logo.png": "/with-love-al/static/media/site-logo.acb86d936c011e385e5b.png",
+    "static/media/LogoSq.png": "/with-love-al/static/media/LogoSq.f1456368b7b07a5dad87.png",
     "index.html": "/with-love-al/index.html",
-    "main.958f8225.css.map": "/with-love-al/static/css/main.958f8225.css.map",
-    "main.b212be8b.js.map": "/with-love-al/static/js/main.b212be8b.js.map"
+    "main.ee699ec9.css.map": "/with-love-al/static/css/main.ee699ec9.css.map",
+    "main.d158f484.js.map": "/with-love-al/static/js/main.d158f484.js.map"
   },
   "entrypoints": [
-    "static/css/main.958f8225.css",
-    "static/js/main.b212be8b.js"
+    "static/css/main.ee699ec9.css",
+    "static/js/main.d158f484.js"
   ]
 }
