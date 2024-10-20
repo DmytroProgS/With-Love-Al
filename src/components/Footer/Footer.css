@@ -1,0 +1,69 @@
+
+
+/* Екрани телефонів */
+@media (max-width: 480px) {
+    .blue-futter {
+        height: 50px;
+        background-color: blue;
+      }
+      
+      .yellow-futter {
+        height: 50px;
+        background-color: yellow;
+      }
+  }
+  
+  /* Ширші мобільні екрани */
+  @media (min-width: 481px) and (max-width: 767px) {
+    .blue-futter {
+        height: 50px;
+        background-color: blue;
+      }
+      
+      .yellow-futter {
+        height: 50px;
+        background-color: yellow;
+      }
+  }
+  
+  /* Планшети */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .blue-futter {
+        height: 50px;
+        background-color: blue;
+      }
+      
+      .yellow-futter {
+        height: 50px;
+        background-color: yellow;
+      }
+  }
+  
+  /* Ноутбуки */
+  @media (min-width: 1025px) and (max-width: 1280px) {
+
+    .blue-futter {
+        height: 50px;
+        background-color: blue;
+      }
+      
+      .yellow-futter {
+        height: 50px;
+        background-color: yellow;
+      }
+  }
+
+  .blue-futter {
+    height: 50px;
+    background-color: blue;
+  }
+  
+  .yellow-futter {
+    height: 50px;
+    background-color: yellow;
+
+  }
+
+  footer {
+    margin-top: 50px;
+  }

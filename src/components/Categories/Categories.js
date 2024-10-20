@@ -8,10 +8,10 @@ import earring2 from '../../assets/images/Necklace-removebg-preview.png';
 function Categories() {
   return (
     <section className="categories">
-      <h3>Categories</h3>
-      <p>Lorem losum sit amet constructoe aspiscing do elmod tempor...</p>
+      <h3>Категорії</h3>
+      <p>Перелік всіх робіт по типу та призначенню виробів.</p>
       <div className="category-grid">
-      <a href="/"><CategoryCard image={earring1} title="Бабочки" /></a>
+      <a href="/"><CategoryCard image={earring1} title="Метелики" /></a>
       <a href="/earrings"> <CategoryCard image={necklace} title="Сережки" /></a>
       <a href="/"> <CategoryCard image={earring2} title="Намиста" /></a>
       </div>

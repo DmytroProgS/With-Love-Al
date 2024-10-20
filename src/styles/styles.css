@@ -186,3 +186,7 @@ header .icons a {
     max-width: 1140px; /* Максимальна ширина для великих екранів */
   }
 }
+
+a {
+  text-decoration: none;
+}
