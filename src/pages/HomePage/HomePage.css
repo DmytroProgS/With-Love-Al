@@ -1,4 +1,66 @@
 
+/* Екрани телефонів */
+@media (max-width: 480px) {
+  .slogan {
+    font-size: 24px; /* Зменшити розмір шрифту */
+    padding-left: 10%; /* Зменшити відступ */
+  }
+
+  .banner h2 {
+    font-size: 16px; /* Зменшити заголовок */
+  }
+
+  .banner::before {
+    width: 50%; /* Зменшити зображення фону */
+  }
+}
+
+/* Ширші мобільні екрани */
+@media (min-width: 481px) and (max-width: 767px) {
+  .slogan {
+    font-size: 28px;
+  }
+
+  .banner h2 {
+    font-size: 18px;
+  }
+
+  .banner::before {
+    width: 40%;
+  }
+}
+
+/* Планшети */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .slogan {
+    font-size: 36px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+  }
+
+  .banner::before {
+    width: 35%;
+  }
+}
+
+/* Ноутбуки */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .slogan {
+    font-size: 42px;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+  }
+
+  .banner::before {
+    width: 30%;
+  }
+}
+
+
 .banner {
     position: relative;
     padding: 20px;

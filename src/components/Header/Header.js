@@ -1,6 +1,6 @@
 import React from 'react';
 import earring2 from '../../assets/images/instagram-icon.png';
-import logo from '../../assets/images/site-logo.png'; // Додаємо логотип
+import logo from '../../assets/images/LogoSq.png'; // Додаємо логотип
 
 function Header() {
   return (

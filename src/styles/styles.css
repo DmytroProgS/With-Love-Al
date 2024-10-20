@@ -1,3 +1,104 @@
+/* Екрани телефонів */
+@media (max-width: 480px) {
+  body {
+    font-size: 14px; /* Зменшення розміру шрифту */
+  }
+
+  header {
+    flex-direction: column; /* Вертикальне розташування елементів */
+    align-items: center; /* Центруємо елементи */
+    padding: 10px 10px; /* Зменшення відступів */
+  }
+
+  header nav ul {
+    flex-direction: column; /* Вертикальне меню */
+    gap: 10px; /* Зменшити відстань між елементами */
+  }
+
+  .banner h1 {
+    font-size: 32px; /* Зменшити заголовок */
+  }
+
+  .banner h2 {
+    font-size: 18px; /* Зменшити підзаголовок */
+  }
+
+  .banner {
+    padding: 30px 0; /* Зменшення відступів */
+  }
+}
+
+/* Ширші мобільні екрани */
+@media (min-width: 481px) and (max-width: 767px) {
+  header {
+    padding: 10px 15px;
+  }
+
+  header nav ul {
+    gap: 15px;
+  }
+
+  .banner h1 {
+    font-size: 36px;
+  }
+
+  .banner h2 {
+    font-size: 20px;
+  }
+
+  .banner {
+    padding: 40px 0;
+  }
+}
+
+/* Планшети */
+@media (min-width: 768px) and (max-width: 1024px) {
+  header {
+    padding: 15px 20px;
+  }
+
+  header nav ul {
+    gap: 18px;
+  }
+
+  .banner h1 {
+    font-size: 42px;
+  }
+
+  .banner h2 {
+    font-size: 22px;
+  }
+
+  .banner {
+    padding: 50px 0;
+  }
+}
+
+/* Ноутбуки */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  header {
+    padding: 20px 25px;
+  }
+
+  header nav ul {
+    gap: 20px;
+  }
+
+  .banner h1 {
+    font-size: 48px;
+  }
+
+  .banner h2 {
+    font-size: 24px;
+  }
+
+  .banner {
+    padding: 50px 0;
+  }
+}
+
+
+
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -44,3 +145,44 @@ header .icons a {
   color: #333;
 }
 
+
+/* Базовий стиль для контейнера */
+.container {
+  margin: 0 auto; /* Центруємо контейнер */
+  padding: 0 15px; /* Додаємо внутрішні відступи */
+}
+
+/* Для телефонів */
+@media (max-width: 480px) {
+  .container {
+    max-width: 100%; /* Ширина контейнера для телефонів */
+  }
+}
+
+/* Для ширших екранів телефонів */
+@media (min-width: 481px) and (max-width: 767px) {
+  .container {
+    max-width: 95%; /* Злегка обмежена ширина для телефонів */
+  }
+}
+
+/* Для планшетів */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .container {
+    max-width: 750px; /* Обмеження ширини для планшетів */
+  }
+}
+
+/* Для ноутбуків */
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .container {
+    max-width: 960px; /* Обмежена ширина для ноутбуків */
+  }
+}
+
+/* Для великих екранів (ширші розміри можна додати окремо) */
+@media (min-width: 1281px) {
+  .container {
+    max-width: 1140px; /* Максимальна ширина для великих екранів */
+  }
+}
